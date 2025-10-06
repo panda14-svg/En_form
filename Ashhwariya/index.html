@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>En_forme</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">En_forme</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="controls">
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Handcrafted & Trendy Jewellery</h1>
+          <p>Elegant pieces, wholesale & retail. Necklaces, rings, earrings & more — crafted for every occasion.</p>
+          <a class="btn" href="products.html">Shop Collection</a>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="images/p15.jpg" alt="Featured jewellery" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2>Why Choose Us</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <h3>Quality Materials</h3>
+          <p>Durable metals and bright finishes that last.</p>
+        </div>
+        <div class="feature">
+          <h3>Curated Designs</h3>
+          <p>Trendy styles and classic pieces for all ages.</p>
+        </div>
+        <div class="feature">
+          <h3>Wholesale & Retail</h3>
+          <p>Flexible order sizes and competitive pricing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <h2>Featured Products</h2>
+      <div id="featuredGrid" class="product-grid">
+        <!-- JS populates featured items from script.js -->
+      </div>
+      <div class="center">
+        <a class="btn outline" href="products.html">View All Products</a>
+      </div>
+    </section>
+
+    <section class="testimonials container">
+      <h2>Customer Testimonials</h2>
+      <div class="test-grid">
+        <blockquote>
+          “Beautiful designs and prompt delivery — my customers love them.” <cite>— Riya, Boutique Owner</cite>
+        </blockquote>
+        <blockquote>
+          “Great wholesale rates and consistent quality.” <cite>— Neha, Retailer</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>En_forme</h4>
+        <p>Delhi, India • Wholesale & Retail Jewellery</p>
+      </div>
+      <div>
+        <h5>Quick links</h5>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <p>Email: <a href="mailto:aadhyagautam@gmail.com">aadhyagautam@gmail.com</a></p>
+        <p>Phone: +91 15153905</p>
+      </div>
+    </div>
+    <div class="container copyright">
+      <small>© <span id="year"></span> En_forme — Roll No. 24120092</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
